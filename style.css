@@ -1,0 +1,61 @@
+*{margin: 0;
+padding: 0;}
+
+body{
+    background:  url(/bg\ img.jpg) no-repeat  ;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    left: 5%;
+    top: 3%;
+}
+
+.container h1{
+    font-size: 45px;
+    border-bottom: 5px solid black;
+    margin-bottom: 29px ;
+    padding: 10px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    
+}
+.box input{
+    background: none;
+    width: 80%;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    padding: 0px 4px;
+    
+}
+.box i{
+    position: absolute;
+    left: 6px;
+    font-size: 20px;
+}
+#key{
+   top: 165px
+}
+#envelope{
+    top: 119px;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    margin: 12px 0;
+    padding: 6px;
+    border-radius: 10px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
