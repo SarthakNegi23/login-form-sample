@@ -2,7 +2,7 @@
 padding: 0;}
 
 body{
-    background:  url("https://source.unsplash.com/900x900/?temple") no-repeat;
+    background:  url(https://source.unsplash.com/900x900/?temple) no-repeat;
     background-size: cover;
 }
 .container{
